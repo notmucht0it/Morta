@@ -11,8 +11,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Morta.h" />
     <ClInclude Include="src\Morta\Application.h" />
     <ClInclude Include="src\Morta\Core.h" />
+    <ClInclude Include="src\Morta\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Morta\Application.cpp" />

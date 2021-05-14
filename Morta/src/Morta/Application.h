@@ -1,8 +1,10 @@
 #pragma once
 
+#include "Core.h"
+
 namespace Morta {
 
-	class __declspec(dllexport) Application
+	class MORTA_API Application
 	{
 	public:
 		Application();
@@ -11,4 +13,6 @@ namespace Morta {
 		void Run();
 	};
 
+	//TO BE DEFINED IN CLIENT
+	Application* CreateApplication();
 }
